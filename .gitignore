@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+*.db
+*.db-wal
+*.db-shm
+runs/
+__pycache__/
+.venv/
+*.egg-info/
+.pytest_cache/
