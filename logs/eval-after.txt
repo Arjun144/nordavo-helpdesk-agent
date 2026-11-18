@@ -1,0 +1,5 @@
+examples: 10
+  action=100%  language=100%  category=100%  priority=100%
+  all four fields: 100%
+  tokens: 19128 in, 1395 out
+  cost: $0.0067 for 10 tickets, $0.07 per 100

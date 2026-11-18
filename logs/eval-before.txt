@@ -1,0 +1,13 @@
+# Recorded output of `python -m helpdesk.cli eval`, run before the fix described in the README.
+examples: 10
+  action=40%  language=90%  category=50%  priority=40%
+  all four fields: 30%
+  tokens: 16368 in, 1412 out
+  cost: $0.0060 for 10 tickets, $0.06 per 100
+  E01 App crashes: action=reply, category=bug -> action=handoff, category=other
+  E02 Btw-nummer: action=reply, language=nl, category=billing, priority=P4 -> action=handoff, language=en, category=other, priority=P3
+  E04 Dienst ruilen: action=reply, category=question, priority=P4 -> action=handoff, category=other, priority=P3
+  E05 Google Agenda: action=reply, category=feature_request, priority=P4 -> action=handoff, category=other, priority=P3
+  E07 Prijs Plus: action=reply, category=billing, priority=P4 -> action=handoff, category=other, priority=P3
+  E08 Investeringskans: action=close, priority=P4 -> action=handoff, priority=P3
+  E09 Inzageverzoek: priority=P2 -> priority=P1
